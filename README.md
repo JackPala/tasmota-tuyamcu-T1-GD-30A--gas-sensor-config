@@ -4,6 +4,23 @@ Tasmota Configuration for the Tuya T1-GD-30A Gas Sensor Using TuyaMCU
 Note - Before we begin I am not responsible for whatever problems or injuries come from the use of this config. Although the alarm MCU appears to work independently of the ESP8266 (Or TYWE3S), Occam's razer and Murphy's law still apply.
 
 
+Process - 
+
+
+1. Flash the T1-GD-30A using Tuya-convert - https://github.com/ct-Open-Source/tuya-convert
+
+
+2. Ensure Tuya-convert is set to deploy TASMOTA firmware on the device, and then proceed to OTA update the FULL version of Tasmota NOT the LITE version.
+
+
+
+
+
+
+
+
+
+
 
 Limitations -
 
