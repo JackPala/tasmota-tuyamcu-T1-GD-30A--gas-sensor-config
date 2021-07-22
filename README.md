@@ -10,7 +10,9 @@ Limitations -
 DPId Data is received as 00 as a positive detection of gas instead of 1, this means that we must manually define the value to be sent over MQTT instead of relaying the %value% variable in the event of gas detection.
 
 This works - 
+
 Rule1 ON TuyaReceived#dptype4id1 DO Publish stat/%topic%/GAS 1 ENDON
 
 This does NOT work -
+
 Rule1 ON TuyaReceived#dptype4id1 DO Publish stat/%topic%/GAS %value% ENDON
