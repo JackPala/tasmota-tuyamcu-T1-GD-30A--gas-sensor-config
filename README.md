@@ -13,7 +13,7 @@ Note - Before we begin I am not responsible for whatever problems or injuries co
 2. Ensure Tuya-convert is set to deploy TASMOTA firmware on the device, and then proceed to OTA update the FULL version of Tasmota NOT the LITE version.
 
 
-
+3. Within the Tasomota Web-UI, enter console and run the following command -> **Module 54** The purpose of this command is to set your device to the TuyaMCU module type, enabling the ability to communicate with the MCU and intepret data sent to the WiFI module from the MCU.
 
 
 
