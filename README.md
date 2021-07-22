@@ -16,3 +16,7 @@ Rule1 ON TuyaReceived#dptype4id1 DO Publish stat/%topic%/GAS 1 ENDON
 This does NOT work -
 
 Rule1 ON TuyaReceived#dptype4id1 DO Publish stat/%topic%/GAS %value% ENDON
+
+
+More Information on TuyaMCU (this page showed me the information required to build this config) - 
+https://tasmota.github.io/docs/TuyaMCU/
