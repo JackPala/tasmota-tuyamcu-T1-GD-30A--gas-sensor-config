@@ -1,0 +1,9 @@
+#Configuration for setup into Home Assistant after deployment. Works with MQTT
+binary_sensor:
+  - platform: mqtt
+    state_topic: "stat/tasmota_B1ADA9/GAS"
+    off_delay: 60
+    payload_on: 1
+    name: Kitchen Gas
+    device_class: safety
+# Use these files at your own risk! I am not responsible for anything you do with these files
