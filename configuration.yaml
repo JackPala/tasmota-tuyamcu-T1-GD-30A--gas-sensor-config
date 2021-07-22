@@ -1,4 +1,4 @@
-#Configuration for setup into Home Assistant after deployment. Works with MQTT
+#Configuration for setup into Home Assistant after deployment. Works with MQTT via Mosquitto in my case
 binary_sensor:
   - platform: mqtt
     state_topic: "stat/tasmota_B1ADA9/GAS"
